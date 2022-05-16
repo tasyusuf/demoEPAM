@@ -1,0 +1,9 @@
+com\EPAM\runners\CukesRunner.class
+com\EPAM\utilities\BrowserUtils$1.class
+com\EPAM\utilities\BrowserUtils.class
+com\EPAM\utilities\DBUtils.class
+com\EPAM\pages\BasePage.class
+com\EPAM\step_definitions\trainingstepdefs.class
+com\EPAM\utilities\Driver.class
+com\EPAM\utilities\ConfigurationReader.class
+com\EPAM\step_definitions\Hooks.class

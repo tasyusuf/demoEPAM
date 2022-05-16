@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-15T17:32:46.076Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5332451600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.EPAM.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "go to google website",
+        "description": "",
+        "id": "go-to-google;go-to-google-website",
+        "after": [
+          {
+            "result": {
+              "duration": 161381900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.EPAM.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2161286000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user go to amazon",
+            "match": {
+              "location": "com.EPAM.step_definitions.trainingstepdefs.user_go_to_amazon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91913200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title must contains amazon",
+            "match": {
+              "location": "com.EPAM.step_definitions.trainingstepdefs.title_must_contains_amazon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "go to google",
+    "description": "",
+    "id": "go-to-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/training.feature",
+    "tags": []
+  }
+]
